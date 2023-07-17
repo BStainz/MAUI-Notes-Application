@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.AboutPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <Label
+             Text="This is my About Me Page"             
+             FontSize="22"
+             FontAttributes="Bold"
+             VerticalOptions="Center"
+             HorizontalOptions="CenterAndExpand" />
+        <Label
+             Text="My Love Alissa and I in Utah"             
+             FontSize="18"
+             VerticalOptions="Center"
+             HorizontalOptions="CenterAndExpand" />
+            <Image Source="zionwalsisa.jpg"
+                   SemanticProperties.Description="Brendan Hannon and Alissa Lardiere in Utah!!"
+                   HeightRequest="225"
+                   HorizontalOptions="CenterAndExpand" />
+      <!--  <HorizontalStackLayout Spacing="10">
+            <Label FontSize="22" FontAttributes="Bold" Text="Notes" VerticalOptions="End" />
+            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+        </HorizontalStackLayout> -->
+        <Label Text="I like to travel, spend time with my family and dogs" />
+        <Image Source="mymyjax.png" 
+                   SemanticProperties.Description="My bois Mylo and Jax!"
+                   HeightRequest="240" />
+        <Button Text="Learn more..." Clicked="LearnMore_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
